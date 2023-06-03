@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/formDesign.css">
+</head>
+<style>
+ .form-group label{
+ 	font-size: 14px;
+ 
+ }
+</style>
+<body>
+<div class="form">
+ <div class="form-toggle"></div>
+  <div class="form-panel one">
+    <div class="form-header">
+      <h1>Add Employee</h1>
+    </div>
+    <div class="form-content">
+<form action="addemp" method="post">
+
+<div class="form-group">
+<label>Enter  Code</label> 
+<input type="number" name="ecode"required="required"> <br>
+ </div>
+        <div class="form-group">
+
+<label>Enter  Name</label> 
+<input type="text" name="ename"required="required"> <br>
+ </div>
+        <div class="form-group">
+
+<label>Enter Designation</label> 
+
+<input type="text" name="edesignation"required="required"> <br>
+</div>
+        <div class="form-group">
+
+<label>Enter  Basic Salary</label> 
+<input type="number" name="ebsalary"required="required"> <br>
+</div>
+        <div class="form-group">
+
+<label>Enter  HRA</label> 
+<input type="number" name="ehra"required="required"> <br>
+</div>
+        <div class="form-group">
+
+<label>Enter  CCA</label> 
+<input type="number" name="ecca"required="required"> <br>
+</div>
+        <div class="form-group">
+
+<label>Enter  Bank Account Number</label> 
+<input type="number" name="eaccNumber"required="required"> <br>
+</div>
+        <div class="form-group">
+
+ <button type="submit">ADD</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+
+<script type="js/formDesign.js">
+ function showAlert() {
+    alert("Employee Added");
+  }
+</script>
+
+</html>
+
+
